@@ -171,8 +171,8 @@ h1 {
 a:link {
   text-decoration: none;
   color: black;
-  width: min-content;
-  margin: auto;
+  width: max-content;
+  /* margin: auto; */
   padding: 1rem;
   border: solid;
   border-width: 2px;
@@ -190,6 +190,10 @@ a:hover {
 }
 
 a:active {
+}
+
+.hero__link {
+  margin: auto;
 }
 
 .contact {
@@ -236,7 +240,6 @@ h3 {
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
-  padding-left: 2rem;
 }
 
 p {
@@ -270,10 +273,44 @@ p {
 }
 
 .project {
-  background-color: black;
-  border: 2px solid white;
-  border-radius: 10px;
   padding: 2rem;
+}
+
+.lighthall__project {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lighthall__img__container {
+  border: solid;
+  border-color: transparent;
+  border-radius: 1rem;
+  max-width: 30rem;
+  padding: 1rem;
+}
+
+.lighthall__img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: contain;
+}
+
+.lighthall__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.project__link {
 }
 
 /* ***** FOOTER ***** */
