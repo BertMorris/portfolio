@@ -236,9 +236,6 @@ h2 {
 }
 
 h3 {
-  font-family: "Gowun Batang", serif;
-  font-weight: 700;
-  font-style: normal;
   font-size: 2rem;
 }
 
@@ -252,6 +249,10 @@ p {
 }
 
 .journey__h3 {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
   padding: 3rem;
   height: min-content;
   margin: auto;
@@ -298,8 +299,8 @@ h4 {
 .lighthall__img {
   height: 100%;
   width: 100%;
-
   object-fit: contain;
+  border-radius: 1rem;
 }
 
 .lighthall__details {
