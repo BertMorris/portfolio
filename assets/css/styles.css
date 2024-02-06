@@ -80,7 +80,7 @@ select {
 :root {
   --main-bg-color: #edf2f4;
   --main-text-color: #2b2d42;
-  --accent-light: #8d99ae;
+  --accent-light: #bab99762;
   --accent-dark: #457b9d;
   --accent-red: #ef233c;
 }
@@ -236,6 +236,9 @@ h2 {
 }
 
 h3 {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 2rem;
 }
 
@@ -244,6 +247,9 @@ p {
 }
 
 /* ***** JOURNEY ***** */
+.myjourney {
+  background-color: var(--accent-light);
+}
 .journey {
   display: flex;
 }
@@ -274,7 +280,10 @@ p {
 }
 
 .project {
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .lighthall__project {
@@ -311,7 +320,13 @@ h4 {
   padding: 1rem;
 }
 
-.project__link {
+a.project__link {
+  color: var(--main-bg-color);
+  background-color: var(--main-text-color);
+}
+
+a.project__link:hover {
+  background-color: var(--accent-dark);
 }
 
 /* ***** FOOTER ***** */
