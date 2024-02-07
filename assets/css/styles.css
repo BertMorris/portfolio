@@ -305,7 +305,7 @@ p {
 }
 
 .lighthall__project > * {
-  flex: 1;
+  flex: 1
 }
 
 @media (max-width: 760px) {
