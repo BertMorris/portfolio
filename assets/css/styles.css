@@ -304,6 +304,10 @@ p {
   padding: 2rem;
 }
 
+.lighthall__project > * {
+  flex: 1;
+}
+
 @media (max-width: 760px) {
   .lighthall__project {
     flex-direction: column;
