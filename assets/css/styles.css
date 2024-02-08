@@ -137,6 +137,7 @@ main {
   min-height: 80vh;
   min-height: 80dvh;
   height: 1px;
+  padding: 1rem;
 }
 
 .hero__container {
@@ -159,6 +160,10 @@ main {
   grid-column: 1 / 3;
 }
 
+.text-center {
+  text-align: center;
+}
+
 h1 {
   font-family: "Gowun Batang", serif;
   font-weight: 700;
@@ -166,6 +171,12 @@ h1 {
   font-size: 6rem;
   text-align: center;
   grid-column: 1 /3;
+}
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 5rem;
+  }
 }
 
 a:link {
@@ -220,6 +231,12 @@ a:active {
 /* ***** SECTIONS ***** */
 .section {
   padding: 3rem;
+}
+
+@media (max-width: 760px) {
+  .section {
+    padding: 0.5rem;
+  }
 }
 
 .section__header {
@@ -305,12 +322,13 @@ p {
 }
 
 .lighthall__project > * {
-  flex: 1
+  flex: 1;
 }
 
 @media (max-width: 760px) {
   .lighthall__project {
     flex-direction: column;
+    padding: 0.5rem;
   }
 }
 
